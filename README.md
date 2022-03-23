@@ -8,7 +8,9 @@ A **high-performance MPSC queue** between [wait-free](https://en.wikipedia.org/w
 
   1W producers, each producer writes 100 times. Statistics on the time taken by all producers to write to the queue
   
-**Go version**: go version go1.16.11 darwin/amd64.    
+**Go version**: 
+  
+  go version go1.16.11 darwin/amd64.    
    
 **Machine information**：   
    
