@@ -114,7 +114,7 @@ func producer() {
 		singalexit.Add(1)
 		go func(i int, singalexit *sync.WaitGroup) {
 			defer singalexit.Done()
-			for j := 0; j < 1000; j++ {
+			for j := 0; j < 100; j++ {
 				ex.AddTaskNode(i*100 + j)
 			}
 		}(i, &singalexit)
