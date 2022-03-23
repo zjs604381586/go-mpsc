@@ -13,10 +13,9 @@ A **high-performance MPSC queue** between [wait-free](https://en.wikipedia.org/w
   go version go1.16.11 darwin/amd64.    
    
 **Machine information**：   
-   
-        * Model: macOS Big Sur 11.5.2       
-        * Cpu: Six cores Intel Core i7   
-        * Memory: 16g
+  * Model: macOS Big Sur 11.5.2       
+  * Cpu: Six cores Intel Core i7   
+  * Memory: 16g
         
 **Test Result:**
   
