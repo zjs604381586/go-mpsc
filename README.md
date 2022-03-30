@@ -1,6 +1,6 @@
 # Go-MPSC
 
-A **high-performance MPSC queue** between [wait-free](https://en.wikipedia.org/wiki/Non-blocking_algorithm) and [lock-free](https://en.wikipedia.org/wiki/Non-blocking_algorithm), that is, a multi-producer but consumer queue
+A **high-performance MPSC queue** between [wait-free](https://en.wikipedia.org/wiki/Non-blocking_algorithm) and [lock-free](https://en.wikipedia.org/wiki/Non-blocking_algorithm), that is a multi-producer but one consumer queue
 
 # Time-consuming test with using go channel:
 
